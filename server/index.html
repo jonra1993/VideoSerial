@@ -17,10 +17,15 @@
     <body>
         <div id="wrap">
             <!--h1>Hello, world!</h1-->
-            <canvas id="myChart"></canvas>
-        </div>
+            <canvas style=display:none id="myChart"></canvas>
+            <video id="video" width="800" controls>
+                <source src="media/vid.mp4" type="video/mp4">
+            </video>
+
+         </div>
 
         <aside id="menu">
+            <select ng-model="p" ng_options="port.comName for port in ports"></select> 
             <div class="btn btn-fullscreen" title="Fullscreen [F11 or F]"></div>
             <div class="btn btn-connection" title="Connection [C]"></div>
             <div class="btn btn-settings" title="Settings [F10]"></div>

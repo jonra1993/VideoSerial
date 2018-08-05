@@ -21,6 +21,7 @@ var chart = new Chart(ctx, {
 });
 
 let counter = 0 ;
+
 socket.on('arduino:data', function (dataSerial) {
   // console.log(dataSerial);
   chart.data.labels.push(counter);
