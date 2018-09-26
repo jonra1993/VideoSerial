@@ -27,7 +27,7 @@
 */
 
 var app = angular.module('arduinoSerialApp', []);
-
+var tempo=false;
 app.controller('arduinoSerialCtrl', ['$scope', '$http', function($scope, $http) {
   $scope.ports = [];
   $scope.lines = [];
@@ -74,7 +74,21 @@ app.controller('arduinoSerialCtrl', ['$scope', '$http', function($scope, $http) 
     });
 
   $scope.doConnect = function() {
-    socket.emit('do_connect', $scope.p.comName);
+    var con=document.getElementById("connection");
+    if(tempo==false){
+      socket.emit('do_connect', $scope.p.comName);
+      con.innerHTML="Disconect"
+      tempo=true;
+    }
+    else{
+      socket.emit('do_disconnect', $scope.p.comName);
+      $scope.data = '';
+      $scope.lines = [];
+      con.innerHTML="Connect"
+      tempo=false;
+
+    }
+    
   };
 
   $scope.doDisconnect = function() {
