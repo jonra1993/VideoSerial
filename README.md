@@ -10,17 +10,17 @@ npm install and then npm start.
 <br>
 
 <p align="center">
-  <img height="320" width="480" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial2.png">
+  <img height="320" width="512" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial2.png">
 </p>
 
 <br>
 <p align="center">
-  <img height="320" width="480" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial3.png">
+  <img height="320" width="512" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial3.png">
 </p>
 <br>
 
 <p align="center">
-  <img height="320" width="480" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial1.png">
+  <img height="320" width="512" src="https://www.jonathanvargas.ml/wp-content/uploads/2019/03/videoserial1.png">
 </p>
 
 
