@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/jona/Downloads/arduino-PR-beta1.9-BUILD-104/tools/**",
+                "/home/jona/Downloads/arduino-PR-beta1.9-BUILD-104/hardware/arduino/avr/**"
+            ],
+            "forcedInclude": [
+                "/home/jona/Downloads/arduino-PR-beta1.9-BUILD-104/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
